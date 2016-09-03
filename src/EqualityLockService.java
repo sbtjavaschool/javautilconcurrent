@@ -1,7 +1,7 @@
-public class EqulityLockService implements Service {
+public class EqualityLockService implements Service {
     private final Service service;
 
-    public EqulityLockService(Service service) {
+    public EqualityLockService(Service service) {
         this.service = service;
     }
 
